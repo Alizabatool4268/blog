@@ -1,6 +1,77 @@
 {
     "blogPostData":[
 
-        {}
+        {
+            "id":1,
+            "blogOwner":"fatime",
+            "blogOwnerImage":"/Images/team-member-one",
+            "blogImage":"/Images/css-blog-img.jpg",
+            "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque officiis, sit laborum rem in quam illum doloribus saepe mollitia, hic voluptatibus ea voluptatem consectetur veniam atque expedita modi. Voluptatem?",
+            "blograiting":"4.8",
+            "title":"CSS Short Introduction"
+        },
+        {
+            "id":2,
+            "blogOwner":"fatima",
+            "blogOwnerImage":"/Images/team-member-two",
+            "blogImage":"/Images/Intro-to-html5.jpg",
+            "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque officiis, sit laborum rem in quam illum doloribus saepe mollitia, hic voluptatibus ea voluptatem consectetur veniam atque expedita modi. Voluptatem?",
+            "blograiting":"3.5",
+            "title":"Introduction to HTML5"
+        },
+        {
+            "id":3,
+            "blogOwner":"fatima",
+            "blogOwnerImage":"/Images/team-member-three",
+            "blogImage":"/Images/nextjs-blog-img.webp",
+            "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque officiis, sit laborum rem in quam illum doloribus saepe mollitia, hic voluptatibus ea voluptatem consectetur veniam atque expedita modi. Voluptatem?",
+            "blograiting":"3.4",
+            "title":"Introduction to NEXT.JS"
+        },
+        {
+            "id":4,
+            "blogOwner":"fatima",
+            "blogOwnerImage":"/Images/team-member-four",
+            "blogImage":"/Images/GitHub-blog-image.png",
+            "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque officiis, sit laborum rem in quam illum doloribus saepe mollitia, hic voluptatibus ea voluptatem consectetur veniam atque expedita modi. Voluptatem?",
+            "blograiting":"3.7",
+            "title":"GitHub Guide"
+        },
+        {
+            "id":5,
+            "blogOwner":"fatima",
+            "blogOwnerImage":"/Images/team-member-five",
+            "blogImage":"/Images/tailwind-blog-img.jpg",
+            "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque officiis, sit laborum rem in quam illum doloribus saepe mollitia, hic voluptatibus ea voluptatem consectetur veniam atque expedita modi. Voluptatem?",
+            "blograiting":"3.6",
+            "title":"Introduction to Tailwind"
+        },
+        {
+            "id":6,
+            "blogOwner":"fatima",
+            "blogOwnerImage":"/Images/team-member-six",
+            "blogImage":"/Images/react-blog-image.png",
+            "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque officiis, sit laborum rem in quam illum doloribus saepe mollitia, hic voluptatibus ea voluptatem consectetur veniam atque expedita modi. Voluptatem?",
+            "blograiting":"4.4",
+            "title":"React Fundamentals"
+        },
+        {
+            "id":7,
+            "blogOwner":"fatima",
+            "blogOwnerImage":"/Images/team-member-two",
+            "blogImage":"/Images/typescript-blog.png",
+            "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque officiis, sit laborum rem in quam illum doloribus saepe mollitia, hic voluptatibus ea voluptatem consectetur veniam atque expedita modi. Voluptatem?",
+            "blograiting":"4.5",
+            "title":"TypeScript Short walk through"
+        },
+        {
+            "id":8,
+            "blogOwner":"fatima",
+            "blogOwnerImage":"/Images/team-member-five",
+            "blogImage":"/Images/javascript-blog-img.jpg",
+            "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque officiis, sit laborum rem in quam illum doloribus saepe mollitia, hic voluptatibus ea voluptatem consectetur veniam atque expedita modi. Voluptatem?",
+            "blograiting":"3.7",
+            "title":"Introduction to Javascript"
+        }
     ]
 }

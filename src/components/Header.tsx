@@ -19,11 +19,11 @@ function Header() {
   return (
     <header className='overflow-x-hidden'>
       {/* dekstop side bar */}
-        <div className='flex justify-around items-center bg-orange-600 text-white h-[50px] xsm:hidden ssm:hidden'>
+        <div className='flex justify-around items-center bg-black text-white h-[50px] xsm:hidden ssm:hidden'>
           <div className='text-[30px] ssm:text-[24px] xsm:text-[20px]'>
             Overview
           </div>
-          <div className=' w-[300px] flex justify-between items-center ssm:w-[230px] xsm:text-sm xsm:w-[210px]'>
+          <div className=' w-[300px] text-[18px] flex justify-between items-center ssm:w-[230px] xsm:text-sm xsm:w-[210px]'>
             <Link href={"/"}>Home</Link>
             <Link href={"/"}>About us</Link>
             <Link href={"/"}>Sign up </Link>
@@ -31,7 +31,7 @@ function Header() {
           </div>
         </div>
         {/*for mobile screens*/}
-        <div className='flex justify-around items-center bg-orange-600 text-white h-[50px] msm:hidden sm:hidden md:hidden lg:hidden'>
+        <div className='flex justify-around items-center bg-black text-white h-[50px] msm:hidden sm:hidden md:hidden lg:hidden'>
          <div className='text-[30px] ssm:text-[24px] xsm:text-[20px]'>
             Overview
           </div>
@@ -62,7 +62,7 @@ function Header() {
         >
         </div>
          )}
-     
+
     </header>
   )
 }
