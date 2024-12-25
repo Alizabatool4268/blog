@@ -1,6 +1,7 @@
 import React from 'react';
 import data from "@/blog-post-data.json";
 import CommentSection from "@/components/CommentSection";
+import Image from 'next/image';
 
 interface PageProps {
     params: Promise<{
@@ -37,11 +38,26 @@ async function Page({params}:PageProps) {
   }
   return (
     <main>
-      <section>
-      <div>{post.title}</div>
+      <section className='mt-11'>
+      <div className='flex justify-center items-center flex-col'>
+       <span className='flex gap-2'>
+        <h1 className='text-[18px] font-bold text-slate-600'>Presented by</h1>
+        <Image height={30} width={30} src={post.blogOwnerImage} alt={post.title}></Image>
+        <p className='text-sm'>{post.blogOwner}</p>
+       </span>
+        <h1 className='font-bold text-[30px]'>{post.title}</h1>
+        <p className='w-[400px] ssm:w-[300px] xsm:w-[280px]'>{post.description}</p>
+        <br />
+        <h5 className='font-bold text-[20px]'>{post.blogsubheading}</h5>
+        <p className='w-[400px] ssm:w-[300px] xsm:w-[280px]'>{post.descriptionparatwo}</p>
+        <br />
+        <h5 className='font-bold text-[20px]'>In Conclusion</h5>
+        <p className='w-[400px] ssm:w-[300px] xsm:w-[280px]'>{post.conclusion}</p>
+      </div>
       </section>
       
-      <section>
+      <section className='flex justify-center items-center flex-col mt-11'>
+        <h1 className='text-[30px] font-bold'>Give your Feedback</h1>
         <CommentSection />
       </section>
     </main>

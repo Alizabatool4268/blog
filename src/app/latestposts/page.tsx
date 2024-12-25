@@ -17,10 +17,10 @@ function Page() {
            </span>
       </div> 
      <h1 className="text-[30px] font-bold mt-3">Latest Posts</h1>
-     <div className="grid grid-cols-2 grid-rows-4 gap-6 mt-3">
+     <div className="grid grid-cols-2 grid-rows-4 gap-6 mt-3 msm:grid-cols-1 msm:grid-rows-8 ssm:grid-cols-1 ssm:grid-rows-8 xsm:grid-cols-1 xsm:grid-rows-8">
       {data.blogPostData.map((blogdata)=>(
         <div className="flex justify-center items-center" key={blogdata.id}>
-        <div className="w-[350px] flex flex-col gap-4 shadow-lg" key={blogdata.id}>
+        <div className="w-[350px] xsm:w-[280px] flex flex-col gap-4 shadow-lg" key={blogdata.id}>
           <div className='flex gap-4 items-center'>
             <h6 className='font-bold text-pink-500 '>Post by</h6>
             <span className='flex justify-center items-center gap-2'>
@@ -31,7 +31,7 @@ function Page() {
           <Image height={300} width={350} src={blogdata.blogImage} alt={blogdata.title}></Image>
           <p className='flex'><IoIosStar className='text-yellow-400'/>{blogdata.blograiting}</p>
           <h1 className='font-bold text-[20px] text-blue-700'>{blogdata.title}</h1>
-          <p>{blogdata.description}</p>
+          <p>{`${blogdata.description.slice(0,100)}...`}</p>
             <Link href={`/latestposts/${blogdata.id}`} className='h-[30px] bg-black text-white rounded-sm flex justify-center items-center'>Read more</Link>
         </div>
         </div>

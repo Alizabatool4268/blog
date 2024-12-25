@@ -60,14 +60,14 @@ function CommentSection () {
 
     return (
         <section className="mt-11 flex justify-center items-center flex-col">
-            <div className=" w-[400px] flex gap-3  flex-col">
-                <input type="name" placeholder='Enter Name' id='name' required={true} className='h-[40px] w-[400px] border rounded-lg' />
-                <input type="email" placeholder='Enter Email' id='email' required={true} className='h-[40px] w-[400px] border rounded-lg'/>
+            <div className=" w-[400px] ssm:w-[300px] xsm:w-[280px] flex gap-3 flex-col">
+                <input type="name" placeholder='Enter Name' id='name' required={true} className='h-[40px] w-[400px] ssm:w-[300px] xsm:w-[280px] border rounded-lg' />
+                <input type="email" placeholder='Enter Email' id='email' required={true} className='h-[40px] w-[400px] ssm:w-[300px] xsm:w-[280px] border rounded-lg'/>
                 <textarea 
                     name="Comments" 
                     id="comments" 
                     placeholder='Enter your valuable feedback' 
-                    className='w-[400px] h-[200px] p-2 border rounded-lg '/>
+                    className='w-[400px] h-[200px] ssm:w-[300px] xsm:w-[280px] p-2 border rounded-lg '/>
                 <button 
                     onClick={handleSubmit}
                     className=" mt-2 h-[35px] bg-black text-white rounded hover:bg-blue-900"> Submit
@@ -84,9 +84,8 @@ function CommentSection () {
                             
                             <div 
                             key={comment.id} 
-                            className=' w-[350px] p-4 border rounded-lg shadow-sm'
+                            className=' w-[350px] ssm:w-[300px] xsm:w-[280px] p-4 border rounded-lg shadow-sm'
                             >
-                               
                                 <p className='text-blue-700 font-bold'>{comment.name}</p>
                                 <p className='text-blue-700 font-bold'>{comment.email}</p>
                                 <p className='overflow-x-hidden'>{comment.text}</p>

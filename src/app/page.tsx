@@ -31,7 +31,7 @@ export default function Home() {
                <Image height={300} width={350} src={blogdata.blogImage} alt={blogdata.title} className="xsm:w-[280px]"></Image>
                <p className='flex'><IoIosStar className='text-yellow-400'/>{blogdata.blograiting}</p>
                <h1 className='font-bold text-[20px] text-blue-700'>{blogdata.title}</h1>
-               <p>{blogdata.description.slice(0,100)}</p>
+               <p>{`${blogdata.description.slice(0,100)}...`}</p>
                  <Link href={`/latestposts/${blogdata.id}`} className='h-[30px] bg-black text-white rounded-sm flex justify-center items-center'>Read more</Link>
              </div>
              </div>
