@@ -1,5 +1,6 @@
 import React from 'react';
-import data from "@/blog-post-data.json"
+import data from "@/blog-post-data.json";
+import CommentSection from "@/components/CommentSection";
 
 interface PageProps {
     params: Promise<{
@@ -35,8 +36,16 @@ async function Page({params}:PageProps) {
     );
   }
   return (
-    <div>{post.title}</div>
-  )
+    <main>
+      <section>
+      <div>{post.title}</div>
+      </section>
+      
+      <section>
+        <CommentSection />
+      </section>
+    </main>
+    )
 }
 
 export default Page
