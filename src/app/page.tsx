@@ -1,4 +1,5 @@
 import Image from "next/image";
+import data from "@/blog-post-data.json"
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       </div>
       <Image height={400} width={400} src={"/Images/Image.png"} alt="heroImage"></Image>
      </section>
+    
    </main>
   );
 }

@@ -1,7 +1,7 @@
-import { Lusitana } from "next/font/google";
+import { Josefin_Sans } from "next/font/google";
 
-const lusitana = Lusitana({
+const josefinsans = Josefin_Sans({
     weight:["400","700"],
     subsets:["latin"]
 });
-export default lusitana;
+export default josefinsans;

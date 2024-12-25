@@ -23,11 +23,11 @@ function Header() {
           <div className='text-[30px] ssm:text-[24px] xsm:text-[20px]'>
             Overview
           </div>
-          <div className=' w-[300px] text-[18px] flex justify-between items-center ssm:w-[230px] xsm:text-sm xsm:w-[210px]'>
+          <div className=' w-[320px] text-[18px] flex justify-between items-center ssm:w-[230px] xsm:text-sm xsm:w-[210px]'>
             <Link href={"/"}>Home</Link>
-            <Link href={"/"}>About us</Link>
-            <Link href={"/"}>Sign up </Link>
-            <Link href={"/"}> Latest</Link>
+            <Link href={"/AboutUs"}>About us</Link>
+            <Link href={"/SignUp"}>Sign up </Link>
+            <Link href={"/latestposts"}> Latest Posts</Link>
           </div>
         </div>
         {/*for mobile screens*/}
@@ -50,9 +50,9 @@ function Header() {
           </div>
           <div className=' w-[300px] flex justify-between items-center flex-col gap-5 ssm:w-[230px] xsm:text-sm xsm:w-[210px]'>
             <Link href={"/"}>Home</Link>
-            <Link href={"/"}>About us</Link>
-            <Link href={"/"}>Sign up </Link>
-            <Link href={"/"}> Latest</Link>
+            <Link href={"/AboutUs"}>About us</Link>
+            <Link href={"/SignUp"}>Sign up </Link>
+            <Link href={"/latestposts"}> Latest Posts</Link>
           </div>
         </div>
         {Opensidebar && (

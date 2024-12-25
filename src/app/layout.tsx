@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
-import lusitana from "@/app/fonts/font";
+import josefinsans from "@/app/fonts/font";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${lusitana.className} w-screen text-black bg-white overflow-x-hidden antialiased`}
+        className={`${josefinsans.className} w-screen text-black bg-white overflow-x-hidden antialiased`}
       >
         <Header />
         {children}

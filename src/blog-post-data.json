@@ -3,8 +3,8 @@
 
         {
             "id":1,
-            "blogOwner":"fatime",
-            "blogOwnerImage":"/Images/team-member-one",
+            "blogOwner":"Alex",
+            "blogOwnerImage":"/Images/team-member-one.png",
             "blogImage":"/Images/css-blog-img.jpg",
             "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque officiis, sit laborum rem in quam illum doloribus saepe mollitia, hic voluptatibus ea voluptatem consectetur veniam atque expedita modi. Voluptatem?",
             "blograiting":"4.8",
@@ -12,8 +12,8 @@
         },
         {
             "id":2,
-            "blogOwner":"fatima",
-            "blogOwnerImage":"/Images/team-member-two",
+            "blogOwner":"Ava",
+            "blogOwnerImage":"/Images/team-member-two.png",
             "blogImage":"/Images/Intro-to-html5.jpg",
             "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque officiis, sit laborum rem in quam illum doloribus saepe mollitia, hic voluptatibus ea voluptatem consectetur veniam atque expedita modi. Voluptatem?",
             "blograiting":"3.5",
@@ -21,8 +21,8 @@
         },
         {
             "id":3,
-            "blogOwner":"fatima",
-            "blogOwnerImage":"/Images/team-member-three",
+            "blogOwner":"Rose",
+            "blogOwnerImage":"/Images/team-member-three.png",
             "blogImage":"/Images/nextjs-blog-img.webp",
             "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque officiis, sit laborum rem in quam illum doloribus saepe mollitia, hic voluptatibus ea voluptatem consectetur veniam atque expedita modi. Voluptatem?",
             "blograiting":"3.4",
@@ -30,8 +30,8 @@
         },
         {
             "id":4,
-            "blogOwner":"fatima",
-            "blogOwnerImage":"/Images/team-member-four",
+            "blogOwner":"Aron",
+            "blogOwnerImage":"/Images/team-member-four.png",
             "blogImage":"/Images/GitHub-blog-image.png",
             "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque officiis, sit laborum rem in quam illum doloribus saepe mollitia, hic voluptatibus ea voluptatem consectetur veniam atque expedita modi. Voluptatem?",
             "blograiting":"3.7",
@@ -39,8 +39,8 @@
         },
         {
             "id":5,
-            "blogOwner":"fatima",
-            "blogOwnerImage":"/Images/team-member-five",
+            "blogOwner":"John",
+            "blogOwnerImage":"/Images/team-member-five.png",
             "blogImage":"/Images/tailwind-blog-img.jpg",
             "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque officiis, sit laborum rem in quam illum doloribus saepe mollitia, hic voluptatibus ea voluptatem consectetur veniam atque expedita modi. Voluptatem?",
             "blograiting":"3.6",
@@ -48,8 +48,8 @@
         },
         {
             "id":6,
-            "blogOwner":"fatima",
-            "blogOwnerImage":"/Images/team-member-six",
+            "blogOwner":"Jennie",
+            "blogOwnerImage":"/Images/team-member-six.png",
             "blogImage":"/Images/react-blog-image.png",
             "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque officiis, sit laborum rem in quam illum doloribus saepe mollitia, hic voluptatibus ea voluptatem consectetur veniam atque expedita modi. Voluptatem?",
             "blograiting":"4.4",
@@ -57,8 +57,8 @@
         },
         {
             "id":7,
-            "blogOwner":"fatima",
-            "blogOwnerImage":"/Images/team-member-two",
+            "blogOwner":"Ava",
+            "blogOwnerImage":"/Images/team-member-two.png",
             "blogImage":"/Images/typescript-blog.png",
             "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque officiis, sit laborum rem in quam illum doloribus saepe mollitia, hic voluptatibus ea voluptatem consectetur veniam atque expedita modi. Voluptatem?",
             "blograiting":"4.5",
@@ -66,8 +66,8 @@
         },
         {
             "id":8,
-            "blogOwner":"fatima",
-            "blogOwnerImage":"/Images/team-member-five",
+            "blogOwner":"John",
+            "blogOwnerImage":"/Images/team-member-five.png",
             "blogImage":"/Images/javascript-blog-img.jpg",
             "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi neque officiis, sit laborum rem in quam illum doloribus saepe mollitia, hic voluptatibus ea voluptatem consectetur veniam atque expedita modi. Voluptatem?",
             "blograiting":"3.7",
