@@ -18,3 +18,19 @@ Fully optimized for mobile, tablet, and desktop screens.
 
 ### Fast and Smooth Experience:
 Built with performance and simplicity in mind, ensuring quick load times and seamless interactions.
+
+## Tech Stack
+### Next.js
+1- Framework for building the server-side rendered and statically generated blog platform.
+
+2- Handles routing, page generation, and dynamic loading of blog posts.
+
+### TailwindCSS
+1- Provides a utility-first CSS framework to create a clean, minimalistic, and responsive UI with ease.
+
+2- Enables rapid styling without writing custom CSS from scratch.
+
+### TypeScript
+1- Adds type safety across the codebase for better maintainability and fewer runtime errors.
+
+2- Improves the development experience with auto-completions and better debugging
